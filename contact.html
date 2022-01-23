@@ -11,9 +11,9 @@
   	<form> 
   	Name:<input type="text" placeholder="Your Name" maxlength="20"required/><br /><br />
   	DOB:<input type="date" /><br /><br />
-  	Gender:Male:<input type="radio" name="gender"/>
-  		Female:<input type="radio" name="gender" checked />
-  		Others:<input type="radio" name="gender"/><br /><br />
+  	Gender:Male:<input type="radio" name="gender" value="male"/>
+  		Female:<input type="radio" name="gender" value="female" checked />
+  		Others:<input type="radio" name="gender" value="others"/><br /><br />
                 Place:<input  list="place" name="Place"/>
                 <datalist id="place">
                 	<option value="Kanhangad"/>
@@ -30,9 +30,9 @@
                 </datalist> <br /><br />
                 Address:<textarea rows="1" cols="20"></textarea><br /><br />
                 mobile no:<input type="text" pattern="\d{10}" title="mobile no. should have 10 digits"/></br></br>
-                Language Known: English:<input type="checkbox" checked />
-                		Hindi:<input type="checkbox" />
-                		Others:<input type="checkbox"/><br /><br />
+                Language Known: English:<input type="checkbox" value="english" checked />
+                		Hindi:<input type="checkbox" value="hindi" />
+                		Others:<input type="checkbox" value="others"/><br /><br />
           Preferred Burger Type:<select style="color:blue">
           			<option></option>    
           			<option>REGULAR BURGER</option>    
